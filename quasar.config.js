@@ -49,6 +49,8 @@ module.exports = configure(function ( /* ctx */ ) {
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#build
     build: {
       publicPath: '/chi252525.github.io/',
+      vueRouterMode: 'history', // 如果使用 history 模式的話
+      vueRouterBase: '/chi252525.github.io/', // 替換成你的 GitHub repository 名稱
       target: {
         browser: ['es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1'],
         node: 'node20'
